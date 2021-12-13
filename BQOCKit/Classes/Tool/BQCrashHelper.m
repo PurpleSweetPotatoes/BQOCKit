@@ -31,6 +31,8 @@ static NSUncaughtExceptionHandler *_bqPreviousHandler;
     }];
 }
 
+#endif
+
 + (NSString *)errorLogPath {
     NSString * doucoment = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
     return [doucoment stringByAppendingPathComponent:@"bqCrash.log"];
@@ -52,7 +54,7 @@ static NSUncaughtExceptionHandler *_bqPreviousHandler;
         [CrashTipView showWithTip:reason];
     }];
 }
-#endif
+
 @end
 
 void BQ_UncaughtExceptionHandler(NSException *exception) {
