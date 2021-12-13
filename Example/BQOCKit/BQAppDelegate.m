@@ -7,14 +7,12 @@
 //
 
 #import "BQAppDelegate.h"
-#import "BQCrashHelper.h"
 
 @implementation BQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [BQCrashHelper startCrashAOP];
     return YES;
 }
 
