@@ -1,9 +1,9 @@
-# BQKit
+# BQOCKit
 
-[![CI Status](https://img.shields.io/travis/MrBai/BQKit.svg?style=flat)](https://travis-ci.org/MrBai/BQKit)
-[![Version](https://img.shields.io/cocoapods/v/BQKit.svg?style=flat)](https://cocoapods.org/pods/BQKit)
-[![License](https://img.shields.io/cocoapods/l/BQKit.svg?style=flat)](https://cocoapods.org/pods/BQKit)
-[![Platform](https://img.shields.io/cocoapods/p/BQKit.svg?style=flat)](https://cocoapods.org/pods/BQKit)
+[![CI Status](https://img.shields.io/travis/MrBai/BQOCKit.svg?style=flat)](https://travis-ci.org/MrBai/BQOCKit)
+[![Version](https://img.shields.io/cocoapods/v/BQOCKit.svg?style=flat)](https://cocoapods.org/pods/BQOCKit)
+[![License](https://img.shields.io/cocoapods/l/BQOCKit.svg?style=flat)](https://cocoapods.org/pods/BQOCKit)
+[![Platform](https://img.shields.io/cocoapods/p/BQOCKit.svg?style=flat)](https://cocoapods.org/pods/BQOCKit)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-BQKit is available through [CocoaPods](https://cocoapods.org). To install
+BQOCKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'BQKit'
+pod 'BQOCKit'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ MrBai, 568604944@qq.com
 
 ## License
 
-BQKit is available under the MIT license. See the LICENSE file for more info.
+BQOCKit is available under the MIT license. See the LICENSE file for more info.

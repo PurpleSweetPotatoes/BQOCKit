@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '9.0'
 
-target 'BQKit_Example' do
-  pod 'BQKit', :path => '../'
+target 'BQOCKit_Example' do
+  pod 'BQOCKit', :path => '../'
 
-  target 'BQKit_Tests' do
+  target 'BQOCKit_Tests' do
     inherit! :search_paths
 
     

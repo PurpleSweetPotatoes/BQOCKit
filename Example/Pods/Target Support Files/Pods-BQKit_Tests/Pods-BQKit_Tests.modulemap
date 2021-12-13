@@ -1,6 +1,0 @@
-framework module Pods_BQKit_Tests {
-  umbrella header "Pods-BQKit_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

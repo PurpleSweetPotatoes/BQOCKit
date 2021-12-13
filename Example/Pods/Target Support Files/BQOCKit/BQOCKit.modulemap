@@ -1,0 +1,6 @@
+framework module BQOCKit {
+  umbrella header "BQOCKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

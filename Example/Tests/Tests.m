@@ -1,6 +1,6 @@
 //
-//  BQKitTests.m
-//  BQKitTests
+//  BQOCKitTests.m
+//  BQOCKitTests
 //
 //  Created by MrBai on 12/13/2021.
 //  Copyright (c) 2021 MrBai. All rights reserved.
