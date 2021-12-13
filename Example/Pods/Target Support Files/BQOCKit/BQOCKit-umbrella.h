@@ -65,6 +65,7 @@
 #import "BQAddressBook.h"
 #import "BQAlertVc.h"
 #import "BQCameraManager.h"
+#import "BQCrashHelper.h"
 #import "BQDatePickerView.h"
 #import "BQHintViewTool.h"
 #import "BQKeyBoardManager.h"
