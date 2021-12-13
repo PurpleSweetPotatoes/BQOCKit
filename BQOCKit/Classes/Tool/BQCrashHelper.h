@@ -27,6 +27,8 @@ typedef void(^CrashBlock)(NSString * reason);
 /// 清除日志
 + (void)clearCrashInfo;
 
+/// crash日志路径
++ (NSString *)errorLogPath;
 @end
 
 NS_ASSUME_NONNULL_END
