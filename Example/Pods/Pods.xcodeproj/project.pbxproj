@@ -33,7 +33,6 @@
 		180EA38ED36EE5A980F172D54D326983 /* UIButton+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B5877604BC3411777BE56B3FD666AB /* UIButton+Custom.m */; };
 		195B5C92D5FF4BB3143370ECD949C070 /* BQLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C84744F1E893D515C4769DC9229C421 /* BQLocationManager.m */; };
 		19D0A732D615D415DE898EB667CA24AC /* UIButton+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 235D8D6A3DABF42E71439F16E4409A41 /* UIButton+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B8E327D9886359D1C18C200A8ED0C8F /* BQCrashHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFEB1928DD878FB91654CFD27EC85DA /* BQCrashHelper.m */; };
 		1C9BE1FECA9F2D79A0B9C69DB83E1EA1 /* BQBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 389FF07DFB5FE1E44A71C4DAC7D12DEB /* BQBannerView.m */; };
 		1DC580D5FDB8CE320E4096E745D79E48 /* BQPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B89EDBAEA6772E002C6BF63770985EE /* BQPageControl.m */; };
 		1E31BC72B6EC8C2C0164A18AC8E89DB7 /* UIImage+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = B42DD303ABAF6A50E19F16B0635C1541 /* UIImage+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -159,7 +158,6 @@
 		C39A482B202571386D6CC193C5725902 /* BQSpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AD290A010C88444EDF869A358E325 /* BQSpeechManager.m */; };
 		C461C19D5DCB7BD41793AE728045C9CA /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A06C2BD233C18A5BEB72E3A348B2276 /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C549B5AEAC1B76E9EC3EFF71C71A193C /* BQScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8003973120282F692A759E1C9B5D60 /* BQScrollLabel.m */; };
-		C5B32451BFBC99FBC312A73E6B128196 /* BQCrashHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B45714EC63C6514C27FAF561FF9BB09D /* BQCrashHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8431E70F5A3B3F4F9D920997934F59D /* BQPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B583BF129CAA3AD99718F5294F2FC1B5 /* BQPlayer.bundle */; };
 		C8E8DE566015DAA27219C868CDB219BB /* BQActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DABB762A0AC740D942D13397E976ECA /* BQActivityView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9EB65A4BB0264278093B14B1A183DA6 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = B95E3E1331881A6FA290497FEA70620D /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -296,7 +294,7 @@
 		40708036C28D2F137D8A581DB550FA76 /* NSMutableArray+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Custom.h"; sourceTree = "<group>"; };
 		40815AE2E466C487E1BF3877B0B70A68 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
 		4106A64D6E329DE1D16523FC43313F2F /* NSDictionary+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Custom.h"; sourceTree = "<group>"; };
-		4135719A8591F12E43E99AC1A3518CBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4135719A8591F12E43E99AC1A3518CBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41824DC2B20A5B19DAD80AB20FB51D79 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
 		42E02DBB27E66DDADBED81C5998105F5 /* UIView+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Custom.h"; sourceTree = "<group>"; };
 		4342283EAA4A207208049DC584B028F5 /* BQAlertSheetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQAlertSheetView.h; sourceTree = "<group>"; };
@@ -311,7 +309,7 @@
 		4C84744F1E893D515C4769DC9229C421 /* BQLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BQLocationManager.m; sourceTree = "<group>"; };
 		52F4F8B05712154CA0E7DADD8DBD2A63 /* BQHintViewTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BQHintViewTool.m; sourceTree = "<group>"; };
 		53955B417110FAFEBE626E09960474EA /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
-		544A7599425605FC21E2848FAEC065F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		544A7599425605FC21E2848FAEC065F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		566F7ED478602071CA93FDE933E32EEC /* NSBundle+BQPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+BQPlayer.h"; sourceTree = "<group>"; };
 		57BB775D0E594C2E255D7401EA16A025 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
 		57E20E52E8BBD13EFFD8834FCF4EF91D /* BQOCKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BQOCKit-Info.plist"; sourceTree = "<group>"; };
@@ -349,7 +347,7 @@
 		7EA30B159F6D9DDF9536CA18C48C6BD9 /* NSObject+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Custom.m"; sourceTree = "<group>"; };
 		8128D70A128BC7CEAACC41D43B32425C /* UILabel+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+Custom.h"; sourceTree = "<group>"; };
 		856BCCE751EBB9D9823966AFD311522A /* BQPopVc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQPopVc.h; sourceTree = "<group>"; };
-		8590489CB162124E1FC071E9AC64472E /* Pods_BQOCKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BQOCKit_Tests.framework; path = "Pods-BQOCKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8590489CB162124E1FC071E9AC64472E /* Pods_BQOCKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BQOCKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AB7B83C4B6B479EB8586FA675083C8 /* BQPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQPlayerView.h; sourceTree = "<group>"; };
 		87830D5FBBA39607D73C87621B5A7F45 /* BQBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQBannerView.h; sourceTree = "<group>"; };
 		879B5C987B22FC1F4A876AD86C51011C /* UIDevice+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Custom.h"; sourceTree = "<group>"; };
@@ -372,12 +370,12 @@
 		9B6C3EDC8AE08651A04C60B76627E428 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
 		9BB14983491FD393BA8213BA2AB8CE1A /* Pods-BQOCKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BQOCKit_Example-dummy.m"; sourceTree = "<group>"; };
 		9C046D1AF47E2809170EEFF6795A6049 /* BQAlertVc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQAlertVc.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC06843EAA5DCC0F8B923AEBD4ED3DD /* AppDelegate+Notification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Notification.m"; sourceTree = "<group>"; };
 		9DD5E0DE429B79A35C89148FD6D591B3 /* UILabel+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Custom.m"; sourceTree = "<group>"; };
 		9E36CDBB8DFF77171D824C696E7E9BC2 /* NSObject+analys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+analys.m"; sourceTree = "<group>"; };
 		9EF1CCCD6B2E723C970C5F97F22904F7 /* BQAlertVc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BQAlertVc.m; sourceTree = "<group>"; };
-		9F41D1B4B63394C044BF66F2B5622276 /* BQOCKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BQOCKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F41D1B4B63394C044BF66F2B5622276 /* BQOCKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BQOCKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A019B4A8BF14BC43F43BB3102E270733 /* BQAnalysManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQAnalysManager.h; sourceTree = "<group>"; };
 		A2739CD63957F21CD8345B9108859746 /* BQCameraManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQCameraManager.h; sourceTree = "<group>"; };
 		A2F6ED562DE9ABD37B073D0A9D060CB0 /* NSObject+analys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+analys.h"; sourceTree = "<group>"; };
@@ -391,15 +389,14 @@
 		B1A8F7F626D9770A5BF8F839D909B1D8 /* NSDate+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Custom.m"; sourceTree = "<group>"; };
 		B33A9A913942F9F4E2D1B422864860E8 /* BQNetWork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BQNetWork.m; sourceTree = "<group>"; };
 		B42DD303ABAF6A50E19F16B0635C1541 /* UIImage+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Custom.h"; sourceTree = "<group>"; };
-		B45714EC63C6514C27FAF561FF9BB09D /* BQCrashHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQCrashHelper.h; sourceTree = "<group>"; };
 		B46FADED0B7ECBB0A35CEBE5A402C58D /* UICollectionView+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Custom.m"; sourceTree = "<group>"; };
 		B4874E162E51F9DDE8A3C99102BA6B92 /* BQSliderImgV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQSliderImgV.h; sourceTree = "<group>"; };
 		B4FC75F972E79B5AB0FEF0F9B9B77364 /* Pods-BQOCKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BQOCKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B583BF129CAA3AD99718F5294F2FC1B5 /* BQPlayer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BQPlayer.bundle; path = "BQOCKit-BQPlayer.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B583BF129CAA3AD99718F5294F2FC1B5 /* BQPlayer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BQPlayer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B600C9C58033F0B9EF39B1446DC77E87 /* UITabBarController+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Custom.m"; sourceTree = "<group>"; };
 		B65E63CFB27E9FE7C2F54B331E3DAA3D /* UIViewController+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Custom.h"; sourceTree = "<group>"; };
 		B7322E12CABCED105783C1E0BE7D144B /* WebProcessUnti.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WebProcessUnti.h; sourceTree = "<group>"; };
-		B840D574A7784095249E24926DBED5D8 /* Pods_BQOCKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BQOCKit_Example.framework; path = "Pods-BQOCKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B840D574A7784095249E24926DBED5D8 /* Pods_BQOCKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BQOCKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C8199934381E6C5EA5A9DC373EB05A /* BQSliderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BQSliderView.m; sourceTree = "<group>"; };
 		B95E3E1331881A6FA290497FEA70620D /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
 		BAB1AA1346911252A40D1A52CEDE81B8 /* BQImagePickerVc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQImagePickerVc.h; sourceTree = "<group>"; };
@@ -440,21 +437,20 @@
 		E96CF95154913324198DE8DCF92E48B6 /* NSAttributedString+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Custom.h"; sourceTree = "<group>"; };
 		E98CAE3871D2F0A2E6E37F6A5104890A /* BQFPSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQFPSLabel.h; sourceTree = "<group>"; };
 		EA98911DA2266936911DABC72F8D67B0 /* WKWebView+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Custom.h"; sourceTree = "<group>"; };
-		ECFEB1928DD878FB91654CFD27EC85DA /* BQCrashHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BQCrashHelper.m; sourceTree = "<group>"; };
 		ED49DDAB267914CC72C80A53604C8DF2 /* UITableView+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+Custom.h"; sourceTree = "<group>"; };
 		EDEFE2C35860DCB5F13A91ABE328054D /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
 		EF5B5CDDFFB1CC7DF89FFF84845679EB /* UIAlertController+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Custom.h"; sourceTree = "<group>"; };
 		EF967A56838A185206A78346ADCF94D7 /* BQMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQMenuView.h; sourceTree = "<group>"; };
 		EFFC811E6B558D127A63195BBD1B0703 /* BQOCKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BQOCKit-umbrella.h"; sourceTree = "<group>"; };
 		F00E6BC203320E4BF1CA811B5E834A07 /* NSObject+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Custom.h"; sourceTree = "<group>"; };
-		F1A8D911F37281A2BF42C59B0CF4A815 /* PureCamera.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PureCamera.bundle; path = "BQOCKit-PureCamera.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A8D911F37281A2BF42C59B0CF4A815 /* PureCamera.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureCamera.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61DD47FDC8E3DFA51A8EC5DDFFE27EC /* NSDate+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+Custom.h"; sourceTree = "<group>"; };
 		F8B5877604BC3411777BE56B3FD666AB /* UIButton+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Custom.m"; sourceTree = "<group>"; };
 		F9B745E1A528F28309366387D705C3AD /* UIImagePickerController+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+Custom.m"; sourceTree = "<group>"; };
 		FBD690DC797D4F9EC11754F00601CD08 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; path = TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
 		FC226FE7763D18E35530AFA0C7C265C0 /* BQNetWork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BQNetWork.h; sourceTree = "<group>"; };
 		FC4D0A5D8D84B12904995303C0CB2CE2 /* BQSliderImgV.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BQSliderImgV.m; sourceTree = "<group>"; };
-		FD8DEA75A2FE5E0F2DB4856B5DFC64F0 /* BQOCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BQOCKit.framework; path = BQOCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8DEA75A2FE5E0F2DB4856B5DFC64F0 /* BQOCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BQOCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA238D5B3F30E129E775BABD6D99391 /* BQOCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BQOCKit.debug.xcconfig; sourceTree = "<group>"; };
 		FF1315AD85E99CF0250F985C0CCF72D7 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		FFAB322D2190FB371986FD73661A4CEE /* BQAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BQAddressBook.m; sourceTree = "<group>"; };
@@ -540,7 +536,6 @@
 				B65E63CFB27E9FE7C2F54B331E3DAA3D /* UIViewController+Custom.h */,
 				E1EBB260BA200EE58683043BAD94C94A /* UIViewController+Custom.m */,
 			);
-			name = UI;
 			path = UI;
 			sourceTree = "<group>";
 		};
@@ -550,7 +545,6 @@
 				E092D79A032E48E53D45674F674E085F /* WebImgClickUnti.h */,
 				45BDD16DB1930F5EB5E72F9866727C0F /* WebImgClickUnti.m */,
 			);
-			name = WebViewUntis;
 			path = WebViewUntis;
 			sourceTree = "<group>";
 		};
@@ -588,8 +582,6 @@
 				9EF1CCCD6B2E723C970C5F97F22904F7 /* BQAlertVc.m */,
 				A2739CD63957F21CD8345B9108859746 /* BQCameraManager.h */,
 				8FA64A6E4C5C0FF88842E85D2469956F /* BQCameraManager.m */,
-				B45714EC63C6514C27FAF561FF9BB09D /* BQCrashHelper.h */,
-				ECFEB1928DD878FB91654CFD27EC85DA /* BQCrashHelper.m */,
 				3DBDEDCBAC1B56700A6C5FC3BAD11203 /* BQDatePickerView.h */,
 				E12372BB4756952FE8E4E2F7845D7933 /* BQDatePickerView.m */,
 				03BCCE6F01DD448F0083E85F7EE6619F /* BQHintViewTool.h */,
@@ -685,7 +677,6 @@
 				A2F6ED562DE9ABD37B073D0A9D060CB0 /* NSObject+analys.h */,
 				9E36CDBB8DFF77171D824C696E7E9BC2 /* NSObject+analys.m */,
 			);
-			name = AOPAnalysis;
 			path = AOPAnalysis;
 			sourceTree = "<group>";
 		};
@@ -742,7 +733,6 @@
 				28AC8C503E7F5A07A8CE09106BCA9FED /* BQPhotoView.h */,
 				E098F9F56707DB37724CA20039116E18 /* BQPhotoView.m */,
 			);
-			name = PhotoBrowser;
 			path = PhotoBrowser;
 			sourceTree = "<group>";
 		};
@@ -764,7 +754,6 @@
 				0E03470F04BAC89C152FB75173FA9D46 /* NSString+Custom.h */,
 				2948D4E55FA8152473BA05A23E0289E8 /* NSString+Custom.m */,
 			);
-			name = NS;
 			path = NS;
 			sourceTree = "<group>";
 		};
@@ -774,7 +763,6 @@
 				E3AA71DA79FB112414CBDBB8C947F029 /* BQFMDBHelper.h */,
 				0A7F78F14B69797CA2F07B6FF58DD823 /* BQFMDBHelper.m */,
 			);
-			name = fmdb;
 			path = fmdb;
 			sourceTree = "<group>";
 		};
@@ -885,7 +873,6 @@
 				D637ED899405E72E14573CDDC9435FDF /* PHAsset+Picker.h */,
 				A421353671C1DCCE498F019F2400DAD1 /* PHAsset+Picker.m */,
 			);
-			name = imgPicker;
 			path = imgPicker;
 			sourceTree = "<group>";
 		};
@@ -901,7 +888,6 @@
 				EA98911DA2266936911DABC72F8D67B0 /* WKWebView+Custom.h */,
 				98440BE2ECDE3C1155983B1321D2A57D /* WKWebView+Custom.m */,
 			);
-			name = Other;
 			path = Other;
 			sourceTree = "<group>";
 		};
@@ -974,7 +960,6 @@
 				FDB47094807D0BB2C6BD8A41E76EBD8D /* BQBannerView.h in Headers */,
 				D524E5945ECCB51281BEEADCACF5A47B /* BQCameraManager.h in Headers */,
 				F376F247596C728D0C51C82B4BE5CFE8 /* BQCirLabel.h in Headers */,
-				C5B32451BFBC99FBC312A73E6B128196 /* BQCrashHelper.h in Headers */,
 				38F3EAB5EC68D7E7F3D169F662591A63 /* BQDatePickerView.h in Headers */,
 				3E0CF40D08093A944E4C098499264AA9 /* BQDefineHead.h in Headers */,
 				317DE593AEF792D3DCFF56886B842D4C /* BQFMDBHelper.h in Headers */,
@@ -1258,7 +1243,6 @@
 				1C9BE1FECA9F2D79A0B9C69DB83E1EA1 /* BQBannerView.m in Sources */,
 				5FB797E9C8DEC6DFDBAA97895AFB1AAA /* BQCameraManager.m in Sources */,
 				6C6841C30D83C621628ADD5CB8ACA16B /* BQCirLabel.m in Sources */,
-				1B8E327D9886359D1C18C200A8ED0C8F /* BQCrashHelper.m in Sources */,
 				13BCD2659FD5FB35E1E89C95CEFC4F40 /* BQDatePickerView.m in Sources */,
 				E310B91BF51105399FD7AD054F2857C7 /* BQFMDBHelper.m in Sources */,
 				8D3C81D1BE0BE447F5D1F0BF06338A72 /* BQFPSLabel.m in Sources */,
@@ -1667,8 +1651,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
