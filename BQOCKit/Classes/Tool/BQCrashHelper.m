@@ -21,17 +21,6 @@ static NSUncaughtExceptionHandler *_bqPreviousHandler;
 
 @implementation BQCrashHelper
 
-#ifdef DEBUG
-
-+ (void)load {
-    __block id observer = [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification object:nil queue:nil usingBlock:^(NSNotification * _Nonnull note) {
-        _bqPreviousHandler = NSGetUncaughtExceptionHandler();
-        NSSetUncaughtExceptionHandler(&BQ_UncaughtExceptionHandler);
-        [[NSNotificationCenter defaultCenter] removeObserver:observer];
-    }];
-}
-
-#endif
 
 + (NSString *)errorLogPath {
     NSString * doucoment = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
@@ -39,6 +28,13 @@ static NSUncaughtExceptionHandler *_bqPreviousHandler;
 }
 
 + (void)loadCrashReport:(CrashBlock)handle {
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _bqPreviousHandler = NSGetUncaughtExceptionHandler();
+        NSSetUncaughtExceptionHandler(&BQ_UncaughtExceptionHandler);
+    });
+    
     NSString * info = [NSString stringWithContentsOfFile:[self errorLogPath]  encoding:NSUTF8StringEncoding error:nil];
     if ([info isKindOfClass:[NSString class]] && info.length > 0) {
         handle(info);
