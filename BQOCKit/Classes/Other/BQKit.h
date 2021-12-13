@@ -14,7 +14,6 @@
 #import "BQAlertSheetView.h"
 #import "BQBannerView.h"
 #import "BQCirLabel.h"
-#import "BQCrashHelper.h"
 #import "BQDatePickerView.h"
 #import "BQDefineHead.h"
 #import "BQFPSLabel.h"
