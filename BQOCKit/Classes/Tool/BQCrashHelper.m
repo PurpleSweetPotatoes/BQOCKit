@@ -10,7 +10,6 @@
 
 #import "BQCrashHelper.h"
 #import "NSDate+Custom.h"
-#import "UIView+Custom.h"
 
 void BQ_UncaughtExceptionHandler(NSException *exception);
 static NSUncaughtExceptionHandler *_bqPreviousHandler;
@@ -106,7 +105,7 @@ void BQ_UncaughtExceptionHandler(NSException *exception) {
     scrV.contentSize = CGSizeMake(scrV.bounds.size.width, lab.bounds.size.height);
     
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake((bgView.width - 100) * 0.5, [UIScreen mainScreen].bounds.size.height - 45, 100, 30);
+    btn.frame = CGRectMake((bgView.bounds.size.width - 100) * 0.5, [UIScreen mainScreen].bounds.size.height - 45, 100, 30);
     [btn setTitle:@"关闭" forState:UIControlStateNormal];
     [btn addTarget:bgView action:@selector(btnAction) forControlEvents:UIControlEventTouchUpInside];
     [bgView addSubview:btn];
