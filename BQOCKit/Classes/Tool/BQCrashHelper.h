@@ -15,8 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^CrashBlock)(NSString * reason);
 
-/// debug模式下用于crash信息查看
+/// 用于crash信息查看
 @interface BQCrashHelper : NSObject
+
+/// 开启crash拦截
++ (void)startCrashAOP;
 
 ///读取crash信息
 + (void)loadCrashReport:(CrashBlock)handle;
@@ -29,6 +32,7 @@ typedef void(^CrashBlock)(NSString * reason);
 
 /// crash日志路径
 + (NSString *)errorLogPath;
+
 @end
 
 NS_ASSUME_NONNULL_END

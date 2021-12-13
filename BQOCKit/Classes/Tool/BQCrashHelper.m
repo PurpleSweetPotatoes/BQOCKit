@@ -14,6 +14,7 @@
 
 void BQ_UncaughtExceptionHandler(NSException *exception);
 static NSUncaughtExceptionHandler *_bqPreviousHandler;
+
 @interface CrashTipView : UIView
 + (void)showWithTip:(NSString *)reason;
 @end
@@ -21,6 +22,13 @@ static NSUncaughtExceptionHandler *_bqPreviousHandler;
 
 @implementation BQCrashHelper
 
++ (void)startCrashAOP {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _bqPreviousHandler = NSGetUncaughtExceptionHandler();
+        NSSetUncaughtExceptionHandler(&BQ_UncaughtExceptionHandler);
+    });
+}
 
 + (NSString *)errorLogPath {
     NSString * doucoment = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
@@ -28,12 +36,6 @@ static NSUncaughtExceptionHandler *_bqPreviousHandler;
 }
 
 + (void)loadCrashReport:(CrashBlock)handle {
-    
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        _bqPreviousHandler = NSGetUncaughtExceptionHandler();
-        NSSetUncaughtExceptionHandler(&BQ_UncaughtExceptionHandler);
-    });
     
     NSString * info = [NSString stringWithContentsOfFile:[self errorLogPath]  encoding:NSUTF8StringEncoding error:nil];
     if ([info isKindOfClass:[NSString class]] && info.length > 0) {
