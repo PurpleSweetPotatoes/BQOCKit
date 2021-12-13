@@ -1,0 +1,22 @@
+{
+  "name": "BQKit",
+  "version": "0.1.0",
+  "summary": "A short description of BQKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PurpleSweetPotatoes/BQOCKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MrBai": "568604944@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/PurpleSweetPotatoes/BQOCKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BQKit/Classes/**/*"
+}

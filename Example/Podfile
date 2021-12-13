@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BQKit_Example' do
+  pod 'BQKit', :path => '../'
+
+  target 'BQKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

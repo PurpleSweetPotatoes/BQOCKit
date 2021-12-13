@@ -1,0 +1,16 @@
+PODS:
+  - BQKit (0.1.0)
+
+DEPENDENCIES:
+  - BQKit (from `../`)
+
+EXTERNAL SOURCES:
+  BQKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BQKit: 0b4a70751b32de679a72cb2b6dfb98b3e8f74430
+
+PODFILE CHECKSUM: 76a27ff94cb5f826781f98a6661e6e280ba7ef55
+
+COCOAPODS: 1.10.1
