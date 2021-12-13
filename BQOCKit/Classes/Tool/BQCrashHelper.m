@@ -57,33 +57,33 @@ static NSUncaughtExceptionHandler *_bqPreviousHandler;
 
 void BQ_UncaughtExceptionHandler(NSException *exception) {
     
-    NSString * disPlayName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
-    NSString * appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
-    NSString * sysVersion = [UIDevice currentDevice].systemVersion;
-    
-    NSString * deviceInfo = [NSString stringWithFormat:@"**********\nDisName:%@\nVersion:%@\nSystem:%@\nTime:%@",disPlayName, appVersion, sysVersion, [NSDate locaDate]];
-    
-    /*  获取异常崩溃信息 */
-    NSString * name = [exception name];
-    NSString * reason = [exception reason];
-    NSArray * callStack = [exception callStackSymbols];
-    NSString * content = [NSString stringWithFormat:@"\n%@\n%@ %@\nCallStackSymbols:\n%@",deviceInfo, name, reason, [callStack componentsJoinedByString:@"\n"]];
-    NSFileManager *fileManager = [NSFileManager defaultManager];
-    NSString * filePath = [BQCrashHelper errorLogPath];
-    if(![fileManager fileExistsAtPath:filePath]){ //如果不存在
-        // 直接写入
-        [content writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:nil];
-    } else {
-        NSFileHandle *fileHandle = [NSFileHandle fileHandleForUpdatingAtPath:filePath];
-        [fileHandle seekToEndOfFile];
-        NSData * stringData  = [content dataUsingEncoding:NSUTF8StringEncoding];
-        [fileHandle writeData:stringData]; //追加写入数据
-        [fileHandle closeFile];
-    }
-    
-    if (_bqPreviousHandler) {
-        _bqPreviousHandler(exception);
-    }
+//    NSString * disPlayName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
+//    NSString * appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+//    NSString * sysVersion = [UIDevice currentDevice].systemVersion;
+//    
+//    NSString * deviceInfo = [NSString stringWithFormat:@"**********\nDisName:%@\nVersion:%@\nSystem:%@\nTime:%@",disPlayName, appVersion, sysVersion, [NSDate locaDate]];
+//    
+//    /*  获取异常崩溃信息 */
+//    NSString * name = [exception name];
+//    NSString * reason = [exception reason];
+//    NSArray * callStack = [exception callStackSymbols];
+//    NSString * content = [NSString stringWithFormat:@"\n%@\n%@ %@\nCallStackSymbols:\n%@",deviceInfo, name, reason, [callStack componentsJoinedByString:@"\n"]];
+//    NSFileManager *fileManager = [NSFileManager defaultManager];
+//    NSString * filePath = [BQCrashHelper errorLogPath];
+//    if(![fileManager fileExistsAtPath:filePath]){ //如果不存在
+//        // 直接写入
+//        [content writeToFile:filePath atomically:YES encoding:NSUTF8StringEncoding error:nil];
+//    } else {
+//        NSFileHandle *fileHandle = [NSFileHandle fileHandleForUpdatingAtPath:filePath];
+//        [fileHandle seekToEndOfFile];
+//        NSData * stringData  = [content dataUsingEncoding:NSUTF8StringEncoding];
+//        [fileHandle writeData:stringData]; //追加写入数据
+//        [fileHandle closeFile];
+//    }
+//    
+//    if (_bqPreviousHandler) {
+//        _bqPreviousHandler(exception);
+//    }
 }
 
 @implementation CrashTipView
