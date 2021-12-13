@@ -10,11 +10,6 @@
 #endif
 #endif
 
-#import "BQPlayerCtrlView.h"
-#import "BQPlayerView.h"
-#import "BQSliderImgV.h"
-#import "BQSliderView.h"
-#import "NSBundle+BQPlayer.h"
 #import "NSAttributedString+Custom.h"
 #import "NSData+Custom.h"
 #import "NSDate+Custom.h"

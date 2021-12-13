@@ -66,7 +66,7 @@
 		A24605C199A8188D6E928F91 /* Pods-BQOCKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BQOCKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-BQOCKit_Example/Pods-BQOCKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A51D9ED0C155EBCE983CB18A /* Pods_BQOCKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BQOCKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F6EDF0310C2AB04E25351E /* Pods_BQOCKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BQOCKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC8258713EE38E72C9AE027D /* BQOCKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BQOCKit.podspec; path = ../BQOCKit.podspec; sourceTree = "<group>"; };
+		FC8258713EE38E72C9AE027D /* BQOCKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BQOCKit.podspec; path = ../BQOCKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

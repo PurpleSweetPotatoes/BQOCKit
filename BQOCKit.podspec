@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'BQOCKit/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   s.resource_bundles = {
     'BQPlayer' => ['BQOCKit/Assets/BQPlayer.bundle'],
