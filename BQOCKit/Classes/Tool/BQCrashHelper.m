@@ -9,12 +9,11 @@
     
 
 #import "BQCrashHelper.h"
+#import "NSDate+Custom.h"
+#import "UIView+Custom.h"
 
 void BQ_UncaughtExceptionHandler(NSException *exception);
-
 static NSUncaughtExceptionHandler *_bqPreviousHandler;
-
-
 @interface CrashTipView : UIView
 + (void)showWithTip:(NSString *)reason;
 @end

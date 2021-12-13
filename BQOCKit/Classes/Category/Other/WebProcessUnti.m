@@ -10,6 +10,7 @@
 
 #import "WebProcessUnti.h"
 #import "WKWebView+Custom.h"
+#import "NSDictionary+Custom.h"
 
 @interface WebProcessUnti ()
 @property (nonatomic, weak) WKWebView * webView;

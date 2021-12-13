@@ -9,7 +9,7 @@
     
 
 #import "BQSpeechManager.h"
-
+#import "NSString+Custom.h"
 #import <AVFoundation/AVFoundation.h>
 
 @interface BQSpeechManager ()

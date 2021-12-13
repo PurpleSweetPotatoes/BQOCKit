@@ -8,14 +8,17 @@
 // *******************************************
     
 
-#import "AppDelegate.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
+#if __has_include("AppDelegate.h")
+#import "AppDelegate.h"
 @interface AppDelegate (Notification)
 
 - (void)registerRemoteNotifiCation:(UIApplication *)application;
 
 @end
+#endif
 
 NS_ASSUME_NONNULL_END

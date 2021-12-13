@@ -32,11 +32,17 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BQOCKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'BQOCKit' => ['BQOCKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'BQPlayer' => ['BQOCKit/Assets/BQPlayer.bundle'],
+    'PureCamera' => ['BQOCKit/Assets/PureCamera.bundle'],
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  # 静态库处理
+  # s.vendored_libraries  = 'BQOCKit/Classes/Lib/libmp3lame.a'
+  # s.vendored_framework  = 'BQOCKit/Classes/Lib/CrashReporter.framework'
+  # s.static_framework = true
 end

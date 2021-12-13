@@ -9,7 +9,8 @@
     
 
 #import "BQScrollLabel.h"
-
+#import "UIColor+Custom.h"
+#import "UIView+Custom.h"
 @interface BQScrollLabel()
 {
     dispatch_source_t _timer;

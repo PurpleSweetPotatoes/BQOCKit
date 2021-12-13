@@ -8,6 +8,8 @@
 // *******************************************
     
 
+#if __has_include("AppDelegate.h")
+
 #import "AppDelegate+Notification.h"
 
 #ifdef __IPHONE_10_0
@@ -101,3 +103,5 @@ UNUserNotificationCenterDelegate
 }
 
 @end
+
+#endif
