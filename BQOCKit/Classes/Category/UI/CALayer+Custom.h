@@ -56,4 +56,5 @@
 /// @param bgColor 引导图背景色
 + (instancetype)guideLayerWithFrame:(CGRect)rect inSize:(CGSize)size bgColor:(UIColor *)color;
 
+
 @end

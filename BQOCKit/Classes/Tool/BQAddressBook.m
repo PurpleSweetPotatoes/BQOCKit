@@ -11,17 +11,11 @@
 @implementation BQAddressBook
 
 + (void)requestAccessAddressBookCompletionHandler:(void(^)(BOOL granted, NSError * resion))handler {
-    if (@available(iOS 9.0, *)) {
-        CNContactStore *contactStore = [[CNContactStore alloc] init]; // 创建通讯录
-        // 请求授权
-        [contactStore requestAccessForEntityType:CNEntityTypeContacts completionHandler:handler];
-    } else {
-        CFErrorRef *error = nil;
-        ABAddressBookRef addressBook = ABAddressBookCreateWithOptions(nil, error);
-        ABAddressBookRequestAccessWithCompletion(addressBook, ^(bool granted, CFErrorRef error) {
-            handler(granted, (__bridge NSError *)error);
-        });
-    }
+
+    CNContactStore *contactStore = [[CNContactStore alloc] init]; // 创建通讯录
+    // 请求授权
+    [contactStore requestAccessForEntityType:CNEntityTypeContacts completionHandler:handler];
+
 }
 
 + (void)loadAddressBooksInfo:(void(^)(NSArray *phoneArr))AddressBooksBlock {

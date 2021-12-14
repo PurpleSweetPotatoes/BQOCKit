@@ -28,9 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/PurpleSweetPotatoes/BQOCKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Classes/**/*'
+  # s.source_files = 'BQOCKit/Classes/**/*'
+  
+  s.subspec 'BQPlayer' do |ss|
+     ss.source_files = 'BQOCKit/Classes/BQPlayer/*'
+  end
   
   s.resource_bundles = {
     'BQPlayer' => ['BQOCKit/Assets/BQPlayer.bundle'],
@@ -38,7 +42,7 @@ TODO: Add long description of the pod here.
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'CommonCrypto'
   # s.dependency 'AFNetworking', '~> 2.3'
   
   # 静态库处理

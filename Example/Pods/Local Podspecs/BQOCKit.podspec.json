@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Classes/**/*",
+  "source_files": "BQOCKit/Classes/**/*",
   "resource_bundles": {
     "BQPlayer": [
       "BQOCKit/Assets/BQPlayer.bundle"
